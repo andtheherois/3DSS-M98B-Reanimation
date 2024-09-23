@@ -1,6 +1,5 @@
 ;------------------------------------------------------------------------------------------------
-#include "m98b_new_sounds.ltx"
-[wpn_m98b]:identity_immunities,weapon_probability,default_weapon_params,wpn_m98b_new_sounds
+[wpn_m98b]:identity_immunities,weapon_probability,default_weapon_params
         GroupControlSection         = spawn_group
         $npc                        = on
         $prefetch                   = 8
@@ -76,15 +75,15 @@
         scope_status                = 1
         scope_dynamic_zoom          = on
         scope_name                  = wpn_addon_scope
-        scope_texture               = wpn_crosshair_modern1
+        scope_texture               = 
         scope_x                     = 60
         scope_y                     = -2
         scope_zoom_factor           = 5
         
-        silencer_name               = wpn_addon_silencer
+        silencer_name               = wpn_sil_sr25
         silencer_status             = 0
-        silencer_x                  = 272
-        silencer_y                  = 22
+        silencer_x                  = 200
+        silencer_y                  = 20
         silencer_light_color        = 0.6, 0.5, 0.3
         silencer_light_range        = 0.01
         silencer_light_time         = 0.2
